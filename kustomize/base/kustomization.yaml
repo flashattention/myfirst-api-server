@@ -4,15 +4,15 @@ kind: Kustomization
 namespace: class-10
 
 labels:
-  - pairs:
-      skala.io/component: skala-devops
-      skala.io/managed-by: class-10-skp340
-    includeSelectors: false
+    - pairs:
+          skala.io/component: skala-devops
+          skala.io/managed-by: class-10-sk340
+      includeSelectors: false
 
 commonAnnotations:
-  skala.io/owner: skp340
-  skala.io/registry: skala-registry.skala-ai.com
+    skala.io/owner: sk340
+    skala.io/registry: skala-registry.skala-ai.com
 
 resources:
-  - deployment.yaml
-  - service.yaml
+    - deployment.yaml
+    - service.yaml
